@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body onresize="resizeDisplay()">
+    <main>
+
+        <div class="container">
+            <div class="menu">
+                <div class="menu-img">
+                    <img src="./assets/game.png" alt="logo">
+                </div>
+                <div>
+                    <select name="level" id="level">
+                        <option value="0">Fácil</option>
+                        <option value="1">Médio</option>
+                        <option value="2">Difícil</option>
+                    </select>
+                </div>
+                <div>
+                    <button onclick="app()">Iniciar Jogo</button>
+                </div>
+            </div>
+            <div class="display">
+                <div class="lifes">
+                    <div>
+                        <img src="./assets/coracao_cheio.png" id="third" alt="heart">
+                        <img src="./assets/coracao_cheio.png" id="second" alt="heart">
+                        <img src="./assets/coracao_cheio.png" id="first" alt="heart">
+                    </div>
+                    <div class="time">
+                        <span>Tempo restante: </span>
+                        <span id="timer"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>

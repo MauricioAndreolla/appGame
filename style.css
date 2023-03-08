@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: url(assets/mata_mosca.png), auto;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url(assets/bg.jpg) #18181B no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.menu-img {
+    margin-top:  30px;
+}
+
+select,option {
+    width: 270px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+    font: bolder; 
+    font-size: 20px;
+    text-align: center;
+    color: #18181B;
+}
+
+button {
+    width: 140px;
+    height: 70px;
+    padding: 20px;
+    margin: 10px 0 30px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #7c1111;
+    color: #FFFF;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #aa1919;
+}
+
+.display {
+    display: none;
+}
+
+.lifes {
+    width: 220px;
+    height: 80px;
+    background-color: #18181B;
+    border-radius: 15px;
+    color: #FFFF;
+    margin: 20px 0 20px 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
